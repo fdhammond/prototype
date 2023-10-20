@@ -2,10 +2,13 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
+    fontFamily: {
+      sans: ['"Work Sans"', "sans-serif"],
+    },
     extend: {},
     colors: {
       primary: "#FAEB0C",
-      secondary: "#232323",
+      secondary: "black",
       white: "#ffffff",
     },
   },
