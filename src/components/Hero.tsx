@@ -9,7 +9,6 @@ export default function Hero() {
         alt=""
         className="w-full h-full object-cover"
       />
-
       <div className="flex absolute left-0 top-1/2 transform -translate-y-1/2 max-w-[600px] max-h-[600px] border-b-[10px] border-b-primary md:ml-44">
         <div className="bg-white p-14 text-secondary">
           <h1 className="text-[48px] md:text-7xl font-bold py-4 text-left md:leading-[5.5rem]">
