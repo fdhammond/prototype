@@ -5,7 +5,7 @@ import { motion } from "framer-motion"; // Import motion
 
 export default function SolutionSection() {
   return (
-    <TrackVisibility className="overflow-hidden">
+    <TrackVisibility partialVisibility={true} className="overflow-hidden">
       {({ isVisible }) => (
         <motion.div // Wrap your component with motion.div
           initial={isVisible ? "hidden" : "visible"} // Initial animation state
